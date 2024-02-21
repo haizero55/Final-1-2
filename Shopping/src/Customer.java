@@ -20,28 +20,28 @@ public class Customer implements DiscountRate{
         };
     }
 
-    String customerName;
-    String customerType;
+    String cusName;
+    String cusType;
 
-    public Customer(String customerName, String customerType) {
-        this.customerName = customerName;
-        this.customerType = customerType;
+    public Customer(String cusName, String cusType) {
+        this.cusName = cusName;
+        this.cusType = cusType;
     }
 
-    public String getCustomerName() {
-        return customerName;
+    public String getCusName() {
+        return cusName;
     }
 
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
+    public void setCusName(String cusName) {
+        this.cusName = cusName;
     }
 
-    public String getCustomerType() {
-        return customerType;
+    public String getCusType() {
+        return cusType;
     }
 
-    public void setCustomerType(String customerType) {
-        this.customerType = customerType;
+    public void setCusType(String cusType) {
+        this.cusType = cusType;
     }
 
     @Override
